@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account 1 Dashboard</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/sales.css">
+</head>
+
+<body>
+    <!-- <div class="account-dashboard">
+        <h2>Welcome, sales!</h2>
+        <p>This is the dashboard for Account 1.</p>
+        <button onclick="window.location.href = '../index.html';">Logout</button>
+    </div> -->
+
+
+    <nav>
+        <p>Logo</p>
+        <div class="links">
+            <a href="folders.html">Clients Folders</a>
+            <a href="#" style="text-decoration: underline;">Generate QR</a>
+        </div>
+        <button onclick="window.location.href = '../../index.html';">Logout</button>
+    </nav>
+
+    <div class="main">
+        <div class="input">
+            <label for="ClientName">Enter Client name</label>
+            <input type="text" id="ClientName" placeholder="Enter Client name">
+        </div>
+        <div class="input">
+            <label for="ClientEmail">Enter Client Email</label>
+            <input type="text" id="ClientEmail" placeholder="Enter Client Email">
+        </div>
+        <div class="input">
+            <label for="ClientCode">Enter Client code</label>
+            <input type="text" id="ClientCode" placeholder="Enter Client code">
+        </div>
+        <div class="input">
+            <label for="TripType">Enter Trip Type</label>
+            <input type="radio" id="TripType" name="TripType">ship
+            <input type="radio" id="TripType" name="TripType">submarine
+            <input type="radio" id="TripType" name="TripType">island
+        </div>
+        <div class="input">
+            <label for="ClientName">Enter Client name</label>
+            <input type="text" id="ClientName" placeholder="Enter Client name">
+        </div>
+        <div class="input">
+            <label for="TripDate">Enter Trip Date</label>
+            <input type="date" id="TripDate">
+        </div>
+        <div class="input">
+            <label for="PaymentMethod">Enter Payment Method</label>
+            <select name="PaymentMethod" id="PaymentMethod">
+                <option value="">Cash</option>
+                <option value="">Visa</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="PaymentStatus">Enter Payment status</label>
+            <select name="PaymentStatus" id="PaymentStatus">
+                <option value="">Paid</option>
+                <option value="">Deposit</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="PaidAmmount">Enter Paid Amount</label>
+            <input type="text" id="PaidAmmount" placeholder="Enter Paid Amount">
+        </div>
+        <div class="input">
+            <label for="LeftAmmount">Enter Amount Left</label>
+            <input type="text" id="LeftAmmount" placeholder="100 $" disabled>
+        </div>
+        <div class="input">
+            <label for="SalesName">Enter Sales Name</label>
+            <select name="SalesName" id="SalesName">
+                <option value="">Ahmed</option>
+                <option value="">Mohamed</option>
+            </select>
+        </div>
+        <div class="input">
+            <label for="PhotographerName">Enter Photographer Name</label>
+            <select name="PhotographerName" id="PhotographerName">
+                <option value="">Ahmed</option>
+                <option value="">Mohamed</option>
+            </select>
+        </div>
+
+        <button onclick="window.location.href = '../sales/code.html';">Generate Code</button>
+    </div>
+
+</body>
+
+</html>

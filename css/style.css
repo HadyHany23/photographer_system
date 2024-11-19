@@ -1,0 +1,70 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Login Page Styles */
+.login-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.login-option {
+  margin: 10px 0;
+}
+
+/* Account Dashboard Styles */
+.account-dashboard {
+  text-align: center;
+  padding: 50px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.account-dashboard h2 {
+  color: #333;
+}
+
+.account-dashboard button {
+  margin-top: 20px;
+  background-color: #dc3545;
+}
+
+.account-dashboard button:hover {
+  background-color: #c82333;
+}

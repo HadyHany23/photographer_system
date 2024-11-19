@@ -1,0 +1,98 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333333;
+  color: #c0c0c0;
+}
+
+nav p {
+  text-transform: capitalize;
+  font-size: 30px;
+  color: #c0c0c0;
+}
+
+nav .links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav .links a {
+  padding: 5px 10px;
+  color: #c0c0c0;
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid #c0c0c0;
+  border-radius: 10px;
+}
+
+.main {
+  width: fit-content;
+  height: 600px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 20px;
+  margin-top: 5rem;
+  padding: 0 1rem;
+}
+
+.main .input label {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.main .input input {
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #c0c0c0;
+  border: 1px solid #333333;
+}
+
+.main .input select {
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #c0c0c0;
+  border: 1px solid #333333;
+}
+
+input::placeholder {
+  color: #c0c0c0;
+}
+
+.main button {
+  width: 100%;
+}
+
+.folders {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.folders .main {
+  width: fit-content;
+  height: fit-content;
+  padding: 2rem;
+}
+
+.folders .main p {
+  color: #333333;
+}
