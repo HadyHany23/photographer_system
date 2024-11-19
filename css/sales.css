@@ -35,7 +35,7 @@ nav .links a {
 
 .main {
   width: fit-content;
-  height: 600px;
+  height: 800px;
   background-color: grey;
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@ nav .links a {
   gap: 1rem;
   border-radius: 20px;
   margin-top: 8rem;
-  padding: 0 3rem;
+  padding: 0 1rem;
 }
 
 .main .input label {
